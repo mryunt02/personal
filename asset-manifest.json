@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/personal/static/css/main.bc5853c0.css",
+    "main.js": "/personal/static/js/main.c8c16348.js",
+    "static/js/453.8ec180fb.chunk.js": "/personal/static/js/453.8ec180fb.chunk.js",
+    "static/media/WhatsApp_Image_2024-03-13_at_16.26.32-removebg.png": "/personal/static/media/WhatsApp_Image_2024-03-13_at_16.26.32-removebg.4889771084fe46402094.png",
+    "static/media/aphelios.png": "/personal/static/media/aphelios.13736f42d00aafd5c68e.png",
+    "static/media/reactessentials.png": "/personal/static/media/reactessentials.7e4fb802f303cc3e4682.png",
+    "static/media/investment.png": "/personal/static/media/investment.ac4265e425c4cf634d53.png",
+    "static/media/tictactoe.png": "/personal/static/media/tictactoe.396b7dec33e3276bab19.png",
+    "static/media/todo.png": "/personal/static/media/todo.3ad2e8bd8685ae9d30ea.png",
+    "index.html": "/personal/index.html",
+    "main.bc5853c0.css.map": "/personal/static/css/main.bc5853c0.css.map",
+    "main.c8c16348.js.map": "/personal/static/js/main.c8c16348.js.map",
+    "453.8ec180fb.chunk.js.map": "/personal/static/js/453.8ec180fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc5853c0.css",
+    "static/js/main.c8c16348.js"
+  ]
+}
