@@ -6,6 +6,7 @@ import aphelios from "../img/aphelios.png";
 import tictactoe from "../img/tictactoe.png";
 import reactessentials from "../img/reactessentials.png";
 import todo from "../img/todo.png";
+import valorant from "../img/valorant.png";
 
 function Projects() {
   return (
@@ -15,7 +16,7 @@ function Projects() {
           Projects
         </h1>
       </header>
-      <div>
+      <div style={{ display: "flex", flexWrap: "wrap", flexDirection: "row" }}>
         <AllProjects
           title="Investment Calculator"
           description="Investment calculation web app developed with React.js"
@@ -50,6 +51,13 @@ function Projects() {
           url="https://mryunt02.github.io/todo-typescript/"
           sourceCode="https://github.com/mryunt02/todo-typescript?tab=readme-ov-file"
           image={todo}
+        />
+        <AllProjects
+          title="Valorant Web Site"
+          description="I created a web page about valorant with react.js"
+          url="https://mryunt02.github.io/valorant-info/"
+          sourceCode="https://github.com/mryunt02/valorant-info"
+          image={valorant}
         />
       </div>
     </div>
