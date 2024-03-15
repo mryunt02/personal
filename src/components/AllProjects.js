@@ -1,7 +1,6 @@
 import React from "react";
 import ListItems from "./ListItems";
 import HomeText from "./HomeText";
-import investment from "../img/investment.png";
 
 function AllProjects({ title, description, url, sourceCode, image }) {
   return (
