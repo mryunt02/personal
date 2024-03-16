@@ -2,7 +2,13 @@ import React from "react";
 import HomeParagraph from "./HomeParagraph";
 import "./HomeText.css";
 
-function HomeText({ title, children }) {
+function HomeText({
+  title,
+  children,
+}: {
+  title: string;
+  children: React.ReactNode;
+}) {
   return (
     <>
       <h3

@@ -2,7 +2,19 @@ import React from "react";
 import ListItems from "./ListItems";
 import HomeText from "./HomeText";
 
-function AllProjects({ title, description, url, sourceCode, image }) {
+function AllProjects({
+  title,
+  description,
+  url,
+  sourceCode,
+  image,
+}: {
+  title: string;
+  description: string;
+  url: string;
+  sourceCode: string;
+  image: string;
+}) {
   return (
     <ul
       style={{
@@ -13,7 +25,7 @@ function AllProjects({ title, description, url, sourceCode, image }) {
         flex: 1,
       }}
     >
-      <ListItems style={{ marginTop: "10px" }}>
+      <ListItems>
         <div
           style={{
             display: "flex",

@@ -41,7 +41,7 @@ function Home() {
       <div style={{ flex: "1", maxWidth: "600px" }}>
         {" "}
         {/* Container for text */}
-        <ListItems style={{ marginTop: "10px" }}>
+        <ListItems>
           <h3
             style={{
               color: "rgb(136 150 171)",

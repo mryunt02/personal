@@ -1,6 +1,6 @@
 import React from "react";
 
-function HomeParagraph({ children }) {
+function HomeParagraph({ children }: { children: React.ReactNode }) {
   return (
     <p
       style={{

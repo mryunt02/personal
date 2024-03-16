@@ -1,4 +1,10 @@
-const mySkills = [
+interface Skill {
+  id: number;
+  name: string;
+  level: string;
+  image: string;
+}
+const mySkills: Skill[] = [
   {
     id: 1,
     name: "HTML",

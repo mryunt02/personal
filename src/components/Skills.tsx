@@ -24,22 +24,7 @@ function Skills() {
         }}
       >
         {mySkills.map((skill) => (
-          <ListItems
-            key={skill.id}
-            style={{
-              border: "1px solid #e5e7eb",
-              borderColor: "#253251",
-              borderRadius: "5px",
-              padding: "20px",
-              margin: "20px",
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              justifyContent: "center",
-              flex: "calc(30%)",
-              maxWidth: "calc(20%)",
-            }}
-          >
+          <ListItems key={skill.id}>
             <img src={skill.image} alt={skill.name} />
             <h3
               style={{

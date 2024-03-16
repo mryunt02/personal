@@ -1,6 +1,6 @@
 import React from "react";
 
-function ListItems({ children }) {
+function ListItems({ children }: { children: React.ReactNode }) {
   return (
     <ul
       style={{
